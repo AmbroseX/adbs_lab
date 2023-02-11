@@ -134,5 +134,5 @@ cd build/linux/x86_64/release/;
 
 # 压缩文件
 ```shell
-tar -zcf ../adbs_lab-熊荣康-SA21229005.tar.gz ./* --exclude ./.git/ --exclude ./.idea/ --exclude ./.xmake/ --exclude ./build/
+tar -zcvf ../SA21229005-熊荣康-lab.tar.gz ./*
 ```
