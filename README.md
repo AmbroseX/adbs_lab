@@ -130,3 +130,9 @@ cd build/linux/x86_64/release/;
 - 在单线程情况下，lru和clock算法的hit rate是一样的，但是lru算法用时更短
 - 在多线程情况下，线程数少的时候clock的hit rate更高，但是用时多了一个倍
 - 在多线程情况下，线程数多的时候lru的hit rate更高，同时用时更短
+
+
+# 压缩文件
+```shell
+tar -zcf ../adbs_lab-熊荣康-SA21229005.tar.gz ./* --exclude ./.git/ --exclude ./.idea/ --exclude ./.xmake/ --exclude ./build/
+```
