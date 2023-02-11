@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="0100364a-8e0a-44a5-8739-9bc59742243e" name="XMake" defaultType="TOOL">
+      <configuration id="6b4e8d51-a6ef-47ca-8973-150f4cb0d030" name="XMake">
+        <build type="TOOL">
+          <tool actionId="Tool_External Linux Tools_xmake compile" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Linux Tools_xmake clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
